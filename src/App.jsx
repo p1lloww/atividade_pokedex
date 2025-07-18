@@ -36,7 +36,7 @@ function App() {
             <h2>pesquisar pokemons</h2>
           </nav>
 
-          <h1 className='title'>Pokédex</h1>
+          <h1 className='tit le'>Pokédex</h1>
         </div>
         <div className='pokemons'>
           {pokes.results.map(pokemon => 
