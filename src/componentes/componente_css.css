@@ -1,0 +1,101 @@
+.pokemon-card {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.pokemon-sprite {
+    position: absolute;
+    width: 60%;
+    left: 120px;
+    top: 20px;
+    
+}
+
+.pokemon-name {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    left: 25px;
+    
+    width: max-content;
+    height: max-content;
+}
+
+.card-tipo {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 35px;
+    top: 50px;
+}
+
+.normal {
+    background-color: rgba(168, 167, 122, 0.3);
+}
+
+.fire {
+    background-color: rgba(238, 129, 48, 0.3);
+}
+
+.water {
+    background-color: rgba(99, 144, 240, 0.3);
+}
+
+.electric {
+    background-color: rgba(247, 208, 44, 0.3);
+}
+
+.grass {
+    background-color: rgba(122, 199, 76, 0.3);
+}
+
+.ice {
+    background-color: rgba(150, 217, 214, 0.3);
+}
+
+.fighting {
+    background-color: rgba(194, 46, 40, 0.3);
+}
+
+.poison {
+    background-color: rgba(163, 62, 161, 0.3);
+}
+
+.ground {
+    background-color: rgba(226, 191, 101, 0.3);
+}
+
+.flying {
+    background-color: rgba(169, 143, 243, 0.3);
+}
+
+.psychic {
+    background-color: rgba(249, 85, 135, 0.3);
+}
+
+.bug {
+    background-color: rgba(166, 185, 26, 0.3);
+}
+
+.rock {
+    background-color: rgba(182, 161, 54, 0.3);
+}
+
+.ghost {
+    background-color: rgba(115, 87, 151, 0.3);
+}
+
+.dragon {
+    background-color: rgba(111, 53, 252, 0.3);
+}
+
+.unknown {
+    background-color: rgba(119, 119, 119, 0.3);
+}
